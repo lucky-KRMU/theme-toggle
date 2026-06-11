@@ -6,8 +6,11 @@ function App() {
 
   return (
     <>
-    Hello World!
+    <div className='h-screen w-full flex items-center justify-center flex-col bg-sky-700 font-[Pliant]'>
+
+    <h1>Theme Toggle</h1>
     <Card />
+    </div>
     </>
   )
 }
